@@ -510,6 +510,91 @@ opacity:0;
 }
 
 }
+/* ======================================
+MOBILE RESPONSIVE
+====================================== */
+
+@media (max-width: 768px){
+
+/* Navbar */
+
+.navbar{
+padding:10px 20px;
+}
+
+.nav-links{
+display:none;
+}
+
+/* Hero */
+
+.hero img{
+margin-top:10px;
+border-radius:10px;
+}
+
+/* Products */
+
+.products{
+padding:40px 20px;
+}
+
+.product{
+flex-direction:column;
+gap:30px;
+text-align:center;
+}
+
+.product-image img{
+width:250px;
+}
+
+.product-text{
+max-width:100%;
+}
+
+/* Contact section */
+
+.contact-section h2{
+font-size:36px;
+}
+
+.contact-btn{
+font-size:22px;
+padding:10px 25px;
+}
+
+/* Footer */
+
+.footer{
+padding:40px 20px;
+}
+
+.footer-container{
+flex-direction:column;
+gap:40px;
+text-align:center;
+}
+
+.contact-row{
+flex-direction:column;
+gap:20px;
+}
+
+/* Bottom footer */
+
+.footer-bottom-container{
+flex-direction:column;
+gap:40px;
+text-align:center;
+}
+
+.company-info h2{
+font-size:40px;
+}
+
+}
+
 
 
 
