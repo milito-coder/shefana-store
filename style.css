@@ -86,8 +86,7 @@ HERO SECTION
 ===================================================== */
 
 .hero img{
-max-width:100%;
-height:auto;
+width:100%;
 border-radius:20px;
 margin-top:30px;
 animation:heroMove 8s ease-in-out infinite;
@@ -153,8 +152,7 @@ margin-bottom:15px;
 /* Product Image */
 
 .product-image img{
-max-width:100%;
-height:auto;
+width:450px;
 }
 
 
@@ -516,7 +514,9 @@ opacity:0;
 MOBILE RESPONSIVE
 ====================================== */
 
-@media (max-width:768px){
+@media (max-width: 768px){
+
+/* Navbar */
 
 .navbar{
 padding:10px 20px;
@@ -526,12 +526,14 @@ padding:10px 20px;
 display:none;
 }
 
+/* Hero */
+
 .hero img{
 margin-top:10px;
 border-radius:10px;
-width:100%;
-height:auto;
 }
+
+/* Products */
 
 .products{
 padding:40px 20px;
@@ -541,18 +543,17 @@ padding:40px 20px;
 flex-direction:column;
 gap:30px;
 text-align:center;
-width:100%;
 }
 
 .product-image img{
-max-width:150px;
-width:100%;
-height:auto;
+width:150px;
 }
 
 .product-text{
 max-width:100%;
 }
+
+/* Contact section */
 
 .contact-section h2{
 font-size:36px;
@@ -562,6 +563,8 @@ font-size:36px;
 font-size:22px;
 padding:10px 25px;
 }
+
+/* Footer */
 
 .footer{
 padding:40px 20px;
@@ -577,6 +580,8 @@ text-align:center;
 flex-direction:column;
 gap:20px;
 }
+
+/* Bottom footer */
 
 .footer-bottom-container{
 flex-direction:column;
